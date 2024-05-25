@@ -1,0 +1,35 @@
+{
+    "questions": [
+      {
+        "stem": {
+          "en": "What is the value of $\\int_0^1 x^2 dx$?",
+          "hi": "$\\int_0^1 x^2 dx$ का मान क्या है?"
+        },
+        "options": {
+          "en": ["0", "1/3", "1/2", "1"],
+          "hi": ["0", "1/3", "1/2", "1"]
+        }
+      },
+      {
+        "stem": {
+          "en": "What is the derivative of $\\sin(x)$?",
+          "hi": "$\\sin(x)$ का अवकलज क्या है?"
+        },
+        "options": {
+          "en": ["$\\cos(x)$", "$-\\cos(x)$", "$\\sin(x)$", "$-\\sin(x)$"],
+          "hi": ["$\\cos(x)$", "$-\\cos(x)$", "$\\sin(x)$", "$-\\sin(x)$"]
+        }
+      },
+      {
+        "stem": {
+          "en": "Evaluate $\\int e^x dx$.",
+          "hi": "$\\int e^x dx$ का मान निकालें।"
+        },
+        "options": {
+          "en": ["$e^x$", "$e^x + C$", "$xe^x$", "$e^x - C$"],
+          "hi": ["$e^x$", "$e^x + C$", "$xe^x$", "$e^x - C$"]
+        }
+      }
+    ]
+  }
+  

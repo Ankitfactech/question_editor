@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="s.css">
+    <script src="mathjax-config.js" defer></script>
+    <script type="text/javascript" id="MathJax-script" defer
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.3.0/classic/ckeditor.js"></script>
+    <script src="https://www.wiris.net/demo/plugins/app/WIRISplugins.js?viewer=image"></script>
+</head>
+<body>
+    <div id="quiz-container">
+        <header>
+            <h1>Servon Question Modifier</h1>
+            <p>Using this application you can view and modify questions</p>
+        </header>
+        <div id="language-selection">
+            <label for="language">Select Language: </label>
+            <select id="language">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+            </select>
+        </div>
+        <div id="question-navigation">
+            <button id="prev-question">Previous</button>
+            <span id="question-index">Question 1</span>
+            <button id="next-question">Next</button>
+        </div>
+        <div id="question-container">
+            <div class="side-by-side">
+                <div class="original-section">
+                    <h2>Original Question</h2>
+                    <p id="original-question"></p>
+                    <div id="original-options"></div>
+                </div>
+                <div class="modified-section">
+                    <h2>Modify Question</h2>
+                    <div id="question-editor"></div>
+                    <div id="modified-options"></div>
+                </div>
+            </div>
+        </div>
+        <button id="ok-button">OK Modify it</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

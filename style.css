@@ -1,0 +1,102 @@
+body{
+    background: url('back-servon.jpg');
+    background-size:  cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-1{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    background: rgb(53, 175, 129);
+}
+.container-1:hover{
+    background: url('jaredd-craig-HH4WBGNyltc-unsplash.jpg');
+    background-size:  cover; 
+}
+header {
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #dfe955;
+}
+p{
+    align-items: center;
+    color: black;
+}
+h1 img{
+    border-radius: 30px;
+    border: 1px solid red;
+    width: 60px;
+    height: 60px;
+}
+.feature-box {
+    background: yellow;
+    color: blue;;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#feature {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+/* .feature-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} */
+.feature-box button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feature-box h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+.feature-box p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.feature-box button {
+    padding: 10px 20px;
+    margin-top: 20px;;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#edit-feature{
+    margin:10px;
+    width: 200px;
+    height:200px;
+    border: 2px solid black;
+    background: yellowgreen;
+}
+#crop-feature{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background: yellowgreen;
+}

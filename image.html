@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload & Crop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="image-container">
+        <input type="file" id="image-upload" accept="image/*">
+        <div id="image-preview">
+            <img id="cropper-image" style="max-width: 100%;" />
+        </div>
+        <button id="crop-button">Crop Image</button>
+    </div>
+    <script src="image.js"></script>
+</body>
+</html>

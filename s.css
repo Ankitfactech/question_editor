@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('back-servon.jpg');
+}
+
+#quiz-container {
+    max-width: 1200px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #007BFF;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.1em;
+    color: #666;
+}
+
+#language-selection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#language-selection label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+#language-selection select {
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#question-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#question-navigation button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#question-navigation button:hover {
+    background-color: #0056b3;
+}
+
+#question-navigation span {
+    font-size: 1.2em;
+    color: #333;
+}
+
+#question-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.original-section, .modified-section {
+    width: 48%;
+}
+
+.original-section h2, .modified-section h2 {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+#original-question, #question-editor {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#original-options, #modified-options {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#ok-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 30px;;
+    border: 3px solid red;
+    width: 200px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+#ok-button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+#ok-button:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servon question editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-1">
+        <header>
+        <h1>Welcome to Servon editor <img src="servon.jpg" alt="servon-image"></h1>
+        
+    </header>
+    <div id="feature">
+        <div class="feature-box" id="edit-feature">
+            <h2>Question editor</h2>
+            <p> View and Modify easily and quickly !! </p>
+            <button onclick="navigateTo('editor.html')">Edit question</button>
+        </div>
+        <div class="feature-box" id="crop-feature">
+            <h2>Image Modifier</h2>
+            <p> Crop question and solution photograph very effectively !! </p>
+            <button onclick="navigateTo('image.html')">Crop-Image</button>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function navigateTo(page){
+            window.location.href=page;
+        }
+    </script>
+</body>
+</html>
